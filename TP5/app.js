@@ -10,3 +10,8 @@ console.log(suma)
 
 Resta = numero2 - numero1;
 console.log(Resta)
+
+Multiplicacion = numero1 * numero2 * numero1
+console.log(Multiplicacion)
+
+Division = numero2

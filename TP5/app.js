@@ -1,3 +1,4 @@
+/*
 let Suma  
 let Resta 
 let Multiplicacion  
@@ -19,5 +20,10 @@ console.log(Division)
 
 let nombrealumno = Ivanka;
 let apellido = Tomaso Sterkel;
-
+*/
+let titulo = document.querySelector("h1")
+boton.onclick = funtion () {
+    titulo.textContent = "buen dia tercero"
+    titulo.style
+}
 

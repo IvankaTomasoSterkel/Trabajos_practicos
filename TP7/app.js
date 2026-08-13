@@ -10,19 +10,23 @@ b1.onclick = function () {
         p1.textContent = "sos menor de edad"
     }
 }
-//ejercicio 2
+//ejercicio 2 y 3
 let nombreUsuario = 'Joaco Sanchez'
 let b2 = document.querySelector("#b2")
 let p2 = document.querySelector('#p2')
 b2.onclick = function () {
-    if (nombreUsuario == 'nahuel') {
-        p2.textContent = "Bienvenido Nahuel"
+    if ((nombreUsuario == 'nahuel') || (nombreUsuario == 'marcos'))  {
+        p2.textContent = "Bienvenido " + nombreUsuario + " ¿cómo estás?"
     } else {
-        p2.textContent = "bienvenido usuario"
+        p2.textContent = "Bienvenido " + nombreUsuario 
     }
 }
 
-// ejercicio 3
+// ejercicio 4
+let número = 29
+
+
+
 
 
 

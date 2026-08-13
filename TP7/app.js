@@ -23,8 +23,17 @@ b2.onclick = function () {
 }
 
 // ejercicio 4
-let número = 29
+let numero = 0
+if (numero < 0) {
+    P2.textContent =  "el numero es negativo"
+}else if(numero > 0){
+    P2.textContent = "el numero es positivo"
+} else {
+    P2.textContent = "el numero 0"
 
+
+// ejercicio 5
+let edad = 
 
 
 

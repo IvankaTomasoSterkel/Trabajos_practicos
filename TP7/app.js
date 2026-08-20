@@ -33,8 +33,35 @@ if (numero < 0) {
 
 
 // ejercicio 5
-let edad = 
+b4.onclick = function () {
+    let edad = 18
+    if ((edad >= 6) || (edad <= 11 )){
+         P2.textContent = "sos un niño"
+    } else if ((edad >= 12) || (edad <= 18)){
+           P2.textContent = "sos un adolecente"
+    } else if ((edad >= 19) || (edad <= 26)) {
+           P2.textContent = "sos un joven"
+    } else if ((edad >= 27) || (edad <= 59)){
+           P2.textContent = "sos un adulto"
+    } else if (edad >= 60)
+           P2.textContent = "anciano"
+   }
+   
+   //ejercicio 6
+   let p4 = document.querySelector("#p4")
+   lte b4 = document.querySelector("#b4")
+   let dia = jueves 
+   b4.onclick = function() {
+if ((dia == lunes) || (dia == martes) || (dia == miercoles) || (dia == jueves) || (dia == viernes))
+p4.textContent = "es dia se semana" 
+} else{
+    b4.textContent = " ya es finde semana"
+}
 
+//ejercicio 7
+let b5 = secreto 
+if ()
+   
 
 
 

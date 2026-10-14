@@ -17,7 +17,7 @@ ejer1.textContent = 'El mayor es: ' + mayor(10,50)
 
 
 
-//ejer2
+//actividad 2
 let p2 = document.querySelector('#ejer2')
 // x2 + 5
 // x2 + 32
@@ -35,9 +35,7 @@ function menor(n3, n4){
 ejer2.textContent = 'El menor es: ' + menor(10,50)
 
 
-
-
-//ejer3
+//actividad 3
 function iguales (n1,n2,n3){
 let resultado
  if ((n1 == n2)&&(n2 == n3)){
@@ -51,9 +49,42 @@ iguales(2,4,5)
 ejer3.textContent = iguales(2,9,2)
 
 
-//ej4
-let precio = 45
-function calcular_iva(precio):
-    return precio * 0.21
- calcular_total(precio):
-    return precio + calcular_iva(precio)
+//actividad 4
+let ejer4 = document.querySelector('#ejer4')
+function calcularIVA(compra) {
+    let iva = compra * 0.21;
+    return iva;
+}
+ejer4.textContent=("IVA: $" + calcularIVA(1000));
+
+
+//actividad 5
+let ejer5 = document.querySelector('#ejer5')
+function saludar(nombre) {
+    return "Hola " + nombre + "!";
+}
+ejer5.textContent=(saludar("vicente"));
+
+
+//actividad 6
+let ejer6 = document.querySelector('body')
+let b6 = document.querySelector('#b6')
+function activarModoOscuro() {
+    ejer6.style.backgroundColor = "grey";
+    ejer6.style.color = "white";
+}
+b6.onclick = function(){
+  activarModoOscuro();
+}
+
+
+//actividad 7
+let ejer7 = document.querySelector('body')
+let b7 = document.querySelector('#b7')
+function activarModoClaro() {
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+}
+b7.onclick = function(){
+  activarModoClaro();
+}

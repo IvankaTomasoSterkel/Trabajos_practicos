@@ -1,10 +1,11 @@
 //rindo funciones
 
 function calculo_de_combustible (litros,nafta) {
-    
-if (nafta = "super") {
-    inputEj2.textContent = 1500 * x
-} else if (nafta = "premium") {
-    inputEj2.textContent = 2000 * x
+    let precio
+if (nafta == "super") {
+     precio = 1500 * litros
+} else if (nafta == "premium") {
+     precio = 2000 * litros
 }
+return "contando los " + litros + " litros cargados y de nafta " + nafta + " es de " + precio
 }
